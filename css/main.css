@@ -167,6 +167,14 @@ section {
   text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2);
 }
 
+.product__image {
+  margin: -5em 0 0 0;
+}
+
+.hero {
+  --clr-accent: #faa700;
+}
+
 .shoe-red {
   --clr-inner: #faa700;
   --clr-outer: #e48d00;
@@ -183,4 +191,11 @@ section {
   --clr-inner: #6dd5ed;
   --clr-outer: #2193b0;
   --clr-accent: #008951;
+}
+
+@media (min-width: 45em) {
+  .product__image {
+    float: right;
+    width: 50%;
+  }
 }
